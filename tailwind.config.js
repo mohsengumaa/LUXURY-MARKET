@@ -45,3 +45,9 @@ module.exports = {
   },
   plugins: [],
 }
+console.log(">>> BUILD ENV CHECK <<<");
+console.log("MONGODB_URI:", process.env.MONGODB_URI ? "✅ SET" : "❌ MISSING");
+
+module.exports = {
+  reactStrictMode: true,
+};
